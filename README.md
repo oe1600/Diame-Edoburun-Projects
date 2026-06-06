@@ -1,10 +1,8 @@
 # Hi, I'm Diame 👋
 
-I'm a final-year **Computer Networking and Cloud Security** student based in London, with a strong interest in **Cloud Security, Cybersecurity, Network Security, IT Support, Infrastructure and DevOps fundamentals**.
-
 My GitHub is used to document cloud security projects, networking labs, vulnerability analysis, technical write-ups and hands-on cybersecurity learning.
 
-[LinkedIn](https://www.linkedin.com/in/diame-e0a363524/)
+[LinkedIn](https://www.linkedin.com/in/diame-e/)
 
 ---
 
