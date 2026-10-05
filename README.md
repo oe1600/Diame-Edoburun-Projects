@@ -26,8 +26,6 @@ The aim was to evaluate how each provider’s native security tools detected the
 
 **Tools and services used:** AWS IAM Access Analyzer, AWS S3, AWS EC2 Security Groups, Microsoft Defender for Cloud, Azure RBAC, Google Security Command Center, GCP IAM, OCI IAM, IBM Cloud IAM, IBM Workload Protection
 
-[View Project](PASTE-YOUR-PROJECT-LINK-HERE)
-
 ---
 
 ## 🛠️ Skills
