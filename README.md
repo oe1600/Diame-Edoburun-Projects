@@ -6,28 +6,6 @@ My GitHub is used to document cloud security projects, networking labs, vulnerab
 
 ---
 
-## 🔐 Featured Project
-
-### Investigating & Mitigating Cloud Security Vulnerabilities Across Multiple Cloud Platforms
-
-A final-year cloud security project comparing how **AWS, Microsoft Azure, Google Cloud Platform, Oracle Cloud Infrastructure and IBM Cloud** detect and remediate common cloud security misconfigurations.
-
-The project tested three key cloud security risks:
-
-- Public storage exposure
-- Excessive IAM privileges
-- Unrestricted SSH / network access
-
-The aim was to evaluate how each provider’s native security tools detected these risks, how clearly findings were reported, and how effectively remediation could be applied.
-
-**Focus areas:** Cloud Security, IAM, Public Storage Exposure, Network Security, Vulnerability Detection, Remediation, Multi-Cloud Comparison
-
-**Cloud providers tested:** AWS, Azure, GCP, OCI, IBM Cloud
-
-**Tools and services used:** AWS IAM Access Analyzer, AWS S3, AWS EC2 Security Groups, Microsoft Defender for Cloud, Azure RBAC, Google Security Command Center, GCP IAM, OCI IAM, IBM Cloud IAM, IBM Workload Protection
-
----
-
 ## 🛠️ Skills
 
 ### Cloud Platforms
