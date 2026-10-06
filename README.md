@@ -10,15 +10,37 @@ My GitHub is used to document cloud security projects, networking labs, vulnerab
 
 ### [Cloud Infrastructure & Security Monitoring](https://github.com/oe1600/cloud-infrastructure-security-monitoring)
 
-An AWS environment built with Terraform, with a private EC2 instance, encrypted S3 storage and scoped IAM permissions. CloudTrail and CloudWatch tracked a denied API request through to an SNS email alert, while seven Python checks verified the security settings.
+An AWS lab built to test the full path from a restricted API request to a security alert. Terraform provisioned the environment, and Python checks verified the deployed settings.
 
-**AWS · Terraform · Python · IAM · CloudWatch · CloudTrail**
+- **Infrastructure:** Private EC2 instance inside a VPC, with no public IPv4 address and no inbound or outbound security-group rules.
+- **Storage and access:** S3 public access blocked, encryption and versioning enabled, and a reader role limited to the lab bucket.
+- **Detection and alerting:** CloudTrail recorded a denied API request. CloudWatch detected the event and triggered an SNS email notification.
+- **Validation:** All seven Python checks passed, covering storage protection, network rules and logging integration.
+- **Lifecycle:** Terraform created 25 resources and removed all 25 after testing.
+
+The denied request was a dry run, so it could not delete the VPC. The repository includes an architecture diagram and console evidence of the configuration, alarm history, email alert and validation results.
+
+**Tools:** AWS EC2, S3, VPC, IAM, CloudTrail, CloudWatch, SNS, Terraform and Python.
+
+[View project and screenshots →](https://github.com/oe1600/cloud-infrastructure-security-monitoring)
 
 ### [Multi-Cloud Security Misconfiguration Analysis](https://github.com/oe1600/multi-cloud-security-misconfiguration-analysis)
 
-A comparison of public storage exposure, excessive IAM permissions and open SSH access across AWS, Azure, Google Cloud, Oracle Cloud and IBM Cloud. The project covers detection, remediation and the differences in visibility across native security tools, with console screenshots and a Mermaid diagram.
+A practical investigation into how five cloud platforms identify and handle the same types of security mistakes: public storage, excessive permissions and unrestricted SSH access.
 
-**Multi-cloud · IAM · Storage Security · Network Security · Remediation**
+- **Coverage:** Separate test environments across AWS, Microsoft Azure, Google Cloud, Oracle Cloud Infrastructure and IBM Cloud.
+- **Testing:** Three risk categories assessed on each platform, with configuration evidence recorded before and after remediation.
+- **Detection:** Reviewed native findings and dashboards, including AWS IAM Access Analyzer, Microsoft Defender for Cloud, Google Security Command Center and IBM Workload Protection.
+- **Remediation:** Removed public storage access, reduced excessive permissions and restricted exposed network rules.
+- **Comparison:** Assessed detection visibility, reporting clarity and remediation guidance within the available free-tier and trial services.
+
+Google Cloud gave the clearest overall visibility in the tested environments, while AWS showed strong storage exposure detection. Other scenarios required more manual review or depended on scan timing and enabled services. Results describe these tests, rather than a ranking of each provider's full security capabilities.
+
+The repository includes a findings table, a Mermaid workflow and selected AWS console screenshots showing exposure detection and remediation.
+
+**Focus:** Multi-cloud security, IAM, storage permissions, network exposure, native security tooling and remediation validation.
+
+[View project and findings →](https://github.com/oe1600/multi-cloud-security-misconfiguration-analysis)
 
 ---
 
