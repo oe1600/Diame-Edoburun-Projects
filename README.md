@@ -93,12 +93,12 @@ Technical documentation, project write-ups, screenshot-based evidence collection
 ## 📚 Certifications & Training
 
 ### Completed Certifications
+- Google IT Support Professional Certificate
+- Google Cybersecurity Professional Certificate
 - AWS Certified Cloud Practitioner
 - ISC2 Certified in Cybersecurity (CC)
 
 ### Completed Training
-- Google IT Support Certificate
-- Google Foundations of Cybersecurity
 - AWS Fundamentals of Machine Learning & AI
 - Mastercard Cybersecurity Job Simulation
 - Kali Linux Essential Training
