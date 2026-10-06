@@ -6,6 +6,22 @@ My GitHub is used to document cloud security projects, networking labs, vulnerab
 
 ---
 
+## Featured Projects
+
+### [Cloud Infrastructure & Security Monitoring](https://github.com/oe1600/cloud-infrastructure-security-monitoring)
+
+An AWS environment built with Terraform, with a private EC2 instance, encrypted S3 storage and scoped IAM permissions. CloudTrail and CloudWatch tracked a denied API request through to an SNS email alert, while seven Python checks verified the security settings.
+
+**AWS · Terraform · Python · IAM · CloudWatch · CloudTrail**
+
+### [Multi-Cloud Security Misconfiguration Analysis](https://github.com/oe1600/multi-cloud-security-misconfiguration-analysis)
+
+A comparison of public storage exposure, excessive IAM permissions and open SSH access across AWS, Azure, Google Cloud, Oracle Cloud and IBM Cloud. The project covers detection, remediation and the differences in visibility across native security tools, with console screenshots and a Mermaid diagram.
+
+**Multi-cloud · IAM · Storage Security · Network Security · Remediation**
+
+---
+
 ## 🛠️ Skills
 
 ### Cloud Platforms
