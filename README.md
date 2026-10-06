@@ -92,17 +92,21 @@ Technical documentation, project write-ups, screenshot-based evidence collection
 
 ## 📚 Certifications & Training
 
-### Completed
+### Completed Certifications
+- AWS Certified Cloud Practitioner
+- ISC2 Certified in Cybersecurity (CC)
+
+### Completed Training
 - Google IT Support Certificate
 - Google Foundations of Cybersecurity
-- Mastercard Cybersecurity Job Simulation
 - AWS Fundamentals of Machine Learning & AI
+- Mastercard Cybersecurity Job Simulation
 - Kali Linux Essential Training
 - Python 3 — Codecademy
 
 ### In Progress
+- Microsoft Azure Administrator Associate (AZ-104)
 - CompTIA Security+
-- AWS Certified Cloud Practitioner
 - Cisco CCNA
 - Cisco CyberOps Associate
 
